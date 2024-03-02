@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pixelstrap - Admin Document">
+  <meta name="keywords" content="Pixelstrap - Admin Document">
+  <meta name="author" content="pixelstrap">
+  <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+  <title>Pixelstrap - Admin Document</title>
+  <!-- Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../assets/css/vendors/prism.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/vendors/chartist.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/vendors/echart.css">
+  <!-- Font Awesome-->
+  <link rel="stylesheet" type="text/css" href="../assets/css/fontawesome.css">
+  <!-- Feather icon-->
+  <link rel="stylesheet" type="text/css" href="../assets/css/vendors/feather-icon.css">
+  <!-- animate-->
+  <link rel="stylesheet" type="text/css" href="../assets/css/vendors/animate.css">
+  <!-- Bootstrap css-->
+  <link rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+  <!-- App css-->
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="document full-width-doc sticky-nav-doc" data-bs-spy="scroll" data-bs-target="#myScrollspy"
+  data-bs-offset="0">
+  <!-- tap on top starts-->
+  <div class="tap-top"><i data-feather="chevrons-up"></i>
+    <p>Top</p>
+  </div>
+  <!-- tap on tap ends-->
+  <div>
+    <div class="home-section">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container custom-container">
+          <div class="main-menu"><a class="navbar-brand" href="index.html"> <img src="../assets/images/logo/logo.png"
+                alt=""></a>
+            <div>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><i class="fa fa-bars"> </i></button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav menu">
+                  <li class="nav-item active"><a class="nav-link" href="https://1.envato.market/3GVzd" role="button"
+                      aria-haspopup="true" aria-expanded="false" target="_blank">Purchase</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://pixelstrap.freshdesk.com/" role="button"
+                      aria-haspopup="true" aria-expanded="false" target="_blank">Support</a></li>
+                  <li class="nav-item"><a class="nav-link"
+                      href="http://admin.pixelstrap.com/Mofi/theme/landing-page.html" role="button" aria-haspopup="true"
+                      aria-expanded="false" target="_blank">Demo</a></li>
+                  <li class="nav-item"><a class="nav-link"
+                      href="http://admin.pixelstrap.com/Mofi/theme/landing-page.html#frameworks" role="button"
+                      aria-haspopup="true" aria-expanded="false" target="_blank">Feature </a></li>
+                </ul>
+              </div>
+            </div>
+            <ul class="nav-right">
+              <li>
+                <div class="d-lg-none d-block"><a class="toggle-sidebar" href="#"><i class="fa fa-sliders"></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="btn-group"><a class="decrease btn btn-doc" href="#" title="Decrease font size">A-</a><a
+                    class="reset btn btn-doc" href="#" title="Default font size">A</a><a class="increase btn btn-doc"
+                    href="#" title="Increase font size">A+</a></div>
+              </li>
+              <li><a class="btn btn-light mode" href="#" title="Dark"><i class="fa fa-moon-o"></i><span>Dark</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container custom-container">
+        <div class="search-input">
+          <div class="input-group mb-md-3 mb-0">
+            <input type="text" class="form-control" placeholder="search anything here" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2"><i data-feather="search"></i></span>
+          </div>
+          <div class="popular-search">
+            <span>Popular Search:</span>
+            <ul>
+              <li><a href="index.html"><span class="badge bg-primary">Starter kit</span></a></li>
+              <li><a href="basic-ui.html"><span class="badge bg-primary">Element</span></a></li>
+              <li><a href="advance-ui.html"><span class="badge bg-primary">components</span></a></li>
+              <li><a href="forms.html"><span class="badge bg-primary">forms</span></a></li>
+              <li><a href="tables.html"><span class="badge bg-primary">tables</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="effect-sec">
+        <img src="../assets/images/girl.png" class="img-fluid girl-img" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container custom-container">
+    <div class="document-main">
+      <div class="left-sidebar">
+        <aside>
+          <ul class="list-unstyled nav-sidebar doc-nav">
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="index.html"><img src="../assets/images/document/angular.png"
+                    alt="" />Getting Started</a></div>
+              <ul class="dropdown-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Getting Started</a></li>
+                <li class="nav-item"><a class="nav-link" href="tree.html">Our
+                    Structure</a></li>
+                <li class="nav-item"><a class="nav-link" href="feature-list.html">Avaiable Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="installation.html">Installation</a></li>
+                <li class="nav-item"><a class="nav-link" href="sidebar-options.html">Sidebar Options</a></li>
+                <li class="nav-item"><a class="nav-link" href="unlimited-colors.html">Unlimited Colors</a></li>
+                <li class="nav-item"><a class="nav-link" href="mix-layout.html">Mix Layout</a></li>
+                <li class="nav-item"><a class="nav-link" href="layout-types.html">Layout Types</a></li>
+                <li class="nav-item"><a class="nav-link" href="sccs-structure.html">SCSS Structure</a></li>
+                <li class="nav-item"><a class="nav-link" href="dark.html">Dark</a></li>
+                <li class="nav-item"><a class="nav-link" href="sidbar.html">Sidebar</a></li>
+                <li class="nav-item"><a class="nav-link" href="create-new-page.html">Create New Page</a></li>
+                <li class="nav-item"><a class="nav-link" href="delete-a-page.html">Delete A Page</a></li>
+                <li class="nav-item"><a class="nav-link" href="routing.html">Routing</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="loader.html">Loader</a></li>
+                <li class="nav-item"><a class="nav-link" href="multi-language.html">Multi Language</a></li>
+                <li class="nav-item"><a class="nav-link" href="options.html">Our Layouts</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="basic-ui.html"><img
+                    src="../assets/images/angular/angular.png" alt="" />Components</a></div>
+              <ul class="dropdown-nav">
+                <li class="nav-item"><a class="nav-link" href="basic-ui.html">Basic UI Elements</a></li>
+                <li class="nav-item"><a class="nav-link" href="advance-ui.html">Advance UI Elements</a></li>
+                <li class="nav-item"><a class="nav-link" href="icons.html">Icons</a></li>
+                <li class="nav-item"><a class="nav-link" href="forms.html">Forms</a></li>
+                <li class="nav-item"><a class="nav-link" href="tables.html">Tables</a></li>
+                <li class="nav-item"><a class="nav-link" href="cards.html">Cards</a></li>
+                <li class="nav-item"><a class="nav-link" href="timeline.html">Timeline</a></li>
+                <li class="nav-item"><a class="nav-link" href="charts.html">Charts</a></li>
+                <li class="nav-item"><a class="nav-link" href="maps.html">Maps</a></li>
+                <li class="nav-item"><a class="nav-link" href="editors.html">Editors</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="ecommerce.html"><img
+                    src="../assets/images/angular/angular.png" alt="" />Useful Apps</a></div>
+              <ul class="dropdown-nav">
+                <li class="nav-item"><a class="nav-link" href="ecommerce.html">Ecommerce</a></li>
+                <li class="nav-item"><a class="nav-link" href="chat.html">Chat</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="to-do.html">To-Do</a></li>
+                <li class="nav-item"><a class="nav-link" href="email.html">Email</a></li>
+                <li class="nav-item"><a class="nav-link" href="bookmark-search.html">Bookmark Search</a></li>
+                <li class="nav-item"><a class="nav-link" href="calender.html">Calender</a></li>
+                <li class="nav-item"><a class="nav-link" href="other-app.html">Other Apps</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <div class="title">
+                <a class="nav-link" href="accordian.html"><img src="../assets/images/angular/angular.png"
+                    alt="" />Faq</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="title">
+                <a class="nav-link" href="credits.html"><img src="../assets/images/angular/angular.png"
+                    alt="" />Credits</a>
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <div class="content">
+        <div id="section-1">
+          <h4 class="main-title mb-0">Charts</h4>
+          <hr>
+          <div id="section-1-1">
+            <h4 class="sub-title mb-0 title-with-link">Google charts
+              <span class="d-flex gap-1">
+                <a class="badge badge-primary-light" href="https://www.npmjs.com/package/ng2-google-charts"
+                  target="_blank">Offical
+                  link
+                  <i data-feather="arrow-up-right"></i></a>
+                <a class="badge badge-primary-light" href="https://angular.pixelstrap.net/dunzo/charts/google-chart"
+                  target="_blank">Preview
+                  link
+                  <i data-feather="arrow-up-right"></i></a>
+              </span>
+            </h4>
+            <p>you have to install Google Chart</p><br>
+            <div class="code-box-copy">
+              <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#ckeditorhtml" title="Copy"><i
+                  class="fa fa-files-o"></i></button>
+              <pre><code class="language-html" id="ckeditorhtml"> npm i ng2-google-charts</code></pre>
+            </div>
+            <div class="fluid-container pt-3">
+              <div class="row chart-block">
+                <div class="col-xl-12">
+                  <div class="img">
+                    <img src="../assets/gif/google.gif" width="100%">
+                </div>
+                </div>
+              </div>
+              <div class="code-box-copy mt-3">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#googlehtml" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-html" id="googlehtml">&lt;!-- Html code for display google chart --&gt
+     &lt;div class=&quot;card&quot;&gt;
+        &lt;div class=&quot;card-header pb-0&quot;&gt;
+           &lt;h3&gt;bar-chart2&lt;/h3&gt;
+           &lt;/div&gt;
+      &lt;div class=&quot;card-body chart-block&quot;&gt;
+           &lt;div id=&quot;bar-chart2&quot;&gt;
+            &lt;google-chart [data]=&quot;barChart2&quot;&gt;&lt;/google-chart&gt;
+           &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+
+  </code></pre>
+              </div>
+              <h5 class="pt-3 pb-2 inner-sub-title mt-0">To use google chart data files
+              </h5>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#googlecode" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-html" id="googlecode">
+  export var barChart2: any = {
+    chartType: 'BarChart',
+    dataTable: [
+        ["Element", "Density", {
+            role: "style"
+        }],
+        ["Copper", 10, primary_color],
+        ["Silver", 12, secondary_color],
+        ["Gold", 14, "#51bb25"],
+        ["Platinum", 16, "color: #717171"]
+    ],
+    options: {
+        title: "Density of Precious Metals, in g/cm^3",
+        width: '100%',
+        height: 400,
+        bar: { groupWidth: "95%" },
+        legend: { position: "none" },
+        backgroundColor: 'transparent'
+    },
+};</code></pre>
+              </div>
+
+              <h5 class="pt-3 pb-2 inner-sub-title mt-0">custom google-chart.ts file</h5>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#googlejs" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-js" id="googlejs">import { Component } from '@angular/core';
+import * as chartData from '../../../../shared/data/component/charts/google-chart'
+
+@Component({
+  selector: 'app-bar-chart2',
+  templateUrl: './bar-chart2.component.html',
+  styleUrls: ['./bar-chart2.component.scss']
+})
+export class BarChart2Component {
+
+  public barChart2 = chartData.barChart2
+
+}
+</code></pre>
+              </div>
+            </div>
+          </div>
+          <div id="section-1-6">
+            <h4 class="sub-title mb-0 title-with-link">Chartjs charts
+              <span class="d-flex gap-1">
+                <a class="badge badge-primary-light" href="https://www.npmjs.com/package/ng2-charts"
+                  target="_blank">Offical
+                  link
+                  <i data-feather="arrow-up-right"></i></a>
+                <a class="badge badge-primary-light" href="https://admin.pixelstrap.com/dunzo/theme/chartjs.html"
+                  target="_blank">Preview
+                  link
+                  <i data-feather="arrow-up-right"></i></a>
+              </span>
+            </h4>
+            <p>you have to install chartjs charts </p><br>
+            <div class="code-box-copy">
+              <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#chartjs" title="Copy"><i
+                  class="fa fa-files-o"></i></button>
+              <pre><code class="language-html" id="chartjs"> npm i ng2-charts</code></pre>
+            </div>
+            <div class="fluid-container pt-3">
+              <div class="row chart-block">
+                <div class="col-xl-12">
+                  <div class="img">
+                    <img src="../assets/gif/chartjs.gif" width="100%">
+                 </div>
+                </div>
+              </div>
+              <div class="code-box-copy mt-3">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#chartjshtml" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-html" id="chartjshtml">
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h4&gt;Radar Graph&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-body chart-block&quot;&gt;
+        &lt;canvas baseChart id=&quot;myRadarGraph&quot; class=&quot;chart&quot; [datasets]=&quot;radarGraphData&quot; [labels]=&quot;radarGraphLabels&quot;
+            [options]=&quot;radarGraphOptions&quot; [legend]=&quot;radarGraphLegend&quot; [type]=&quot;radarGraphType&quot;&gt;&lt;/canvas&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+              <h5 class="pt-3 pb-2 inner-sub-title mt-0">To use chartjs chart data file</h5>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#chartjsjscode" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-js" id="chartjsjscode">
+     // RadarGraph Chart
+      export var radarGraphOptions: any = {
+        responsive: true,
+        maintainAspectRatio: false,
+        elements: {
+          line: {
+            borderWidth: 2,
+          },  
+        },
+      };
+      export var radarGraphLabels: string[] = [
+        &quot;Ford&quot;,
+        &quot;Chevy&quot;,
+        &quot;Toyota&quot;,
+        &quot;Honda&quot;,
+        &quot;Mazda&quot;,
+      ];
+      export var radarGraphType: ChartType | any = &quot;radar&quot;;
+      export var radarGraphLegend = false;
+      export var radarGraphData: any[] = [
+        {
+          label: &quot;My First dataset&quot;,
+          fill: true,
+          backgroundColor: &quot;rgba(92, 95, 206, 0.4)&quot;,
+          borderColor: primary,
+          pointBackgroundColor: primary,
+          pointBorderColor: primary,
+          pointHoverBackgroundColor: primary,
+          pointHoverBorderColor: &quot;rgba(255, 206, 0, 0.4)&quot;,
+          data: [12, 3, 5, 18, 7],
+        },
+      ];
+      export var radarGraphColors: Array&lt;any&gt; = [
+        {
+          backgroundColor: &quot;rgba(99, 98, 231, 0.2)&quot;,
+          borderColor: &quot;#7366ff&quot;,
+          borderWidth: 2,
+        },
+      ];
+</code></pre>
+              </div>
+              <h5 class="pt-3 pb-2 inner-sub-title mt-0">you have use this chartjs chart type script file
+              </h5>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#chartjscode" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-html" id="chartjscode">import { Component } from '@angular/core';
+import * as chartData  from '../../../../shared/data/chart/charts/chartjs';
+
+@Component({
+  selector: 'app-radar-graph',
+  templateUrl: './radar-graph.component.html',
+  styleUrls: ['./radar-graph.component.scss']
+})
+
+export class RadarGraphComponent {
+
+  public radarGraphOptions = chartData.radarGraphOptions;
+  public radarGraphLabels = chartData.radarGraphLabels;
+  public radarGraphType = chartData.radarGraphType;
+  public radarGraphLegend = chartData.radarGraphLegend;
+  public radarGraphData = chartData.radarGraphData;
+}
+
+</code></pre>
+              </div>
+            </div>
+          </div>
+          <div id="section-1-7">
+            <h4 class="sub-title mb-0 title-with-link">Chartist charts
+              <span class="d-flex gap-1">
+                <a class="badge badge-primary-light" href="https://www.npmjs.com/package/ng-chartist"
+                  target="_blank">Offical
+                  link
+                  <i data-feather="arrow-up-right"></i></a>
+                <a class="badge badge-primary-light" href="https://angular.pixelstrap.net/dunzo/charts/chartist-chart"
+                  target="_blank">Preview
+                  link
+                  <i data-feather="arrow-up-right"></i></a>
+              </span>
+            </h4>
+            <p>you have to install Chartist charts </p><br>
+            <div class="code-box-copy">
+              <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#ng" title="Copy"><i
+                  class="fa fa-files-o"></i></button>
+              <pre><code class="language-html" id="ng">  npm i ng-chartist</code></pre>
+            </div>
+            <div class="fluid-container pt-3">
+              <div class="row chart-block">
+                <div class="col-xl-12">
+                  <div class="img">
+                    <img src="../assets/gif/chartist.gif" width="100%">
+                 </div>
+                </div>
+              </div>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#chartistcode" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-html" id="chartistcode">&lt;!-- Html code for display apex chart --&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h4&gt;Line chart with area&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;div class=&quot;ct-4 flot-chart-container&quot;&gt;
+            &lt;x-chartist [configuration]=&quot;chart5&quot;&gt;&lt;/x-chartist&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+              <h5 class="pt-3 pb-2 inner-sub-title mt-0">To use chartist chart data
+                files</h5>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#chartisthtml" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-html" id="chartisthtml">
+
+var primary_color = localStorage.getItem('primary_color') || '#7A70BA';
+var secondary_color = localStorage.getItem('secondary_color') || '#48A3D7';
+
+export var chart5: any = {
+    type: 'Line',
+    data: {
+        labels: [1, 2, 3, 4, 5, 6, 7, 8],
+        series: [
+            [5, 9, 7, 8, 5, 3, 5, 4]
+        ]
+    },
+    options: {
+        low: 0,
+        showArea: true,
+        height: 250,
+        colors: [primary_color, secondary_color]
+    }
+};</code></pre>
+              </div>
+
+              <h5 class="pt-3 pb-2 inner-sub-title mt-0"> you have use to chartist type script file</h5>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#chartistjs" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-js" id="chartistjs">import { Component } from '@angular/core';
+import { chart5 } from '../../../../shared/data/chart/charts/chartlist';
+
+@Component({
+  selector: 'app-line-chart-with-area',
+  templateUrl: './line-chart-with-area.component.html',
+  styleUrls: ['./line-chart-with-area.component.scss']
+})
+
+export class LineChartWithAreaComponent {
+
+   public chart5 = chart5;
+
+}
+
+</code></pre>
+              </div>
+            </div>
+          </div>
+          <div id="section-1-9">
+            <h4 class="sub-title mb-0 title-with-link">Apex charts
+              <span class="d-flex gap-1">
+                <a class="badge badge-primary-light" href="https://apexcharts.com/angular-chart-demos/"
+                  target="_blank">Offical
+                  link
+                  <i data-feather="arrow-up-right"></i></a>
+                <a class="badge badge-primary-light" href="https://angular.pixelstrap.net/dunzo/charts/apex-chart"
+                  target="_blank">Preview
+                  link
+                  <i data-feather="arrow-up-right"></i></a>
+              </span>
+            </h4>
+            <p>you have to install Apex charts </p><br>
+            <div class="code-box-copy">
+              <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#apexchart" title="Copy"><i
+                  class="fa fa-files-o"></i></button>
+              <pre><code class="language-html" id="apexchart"> npm i ng-apexcharts</code></pre>
+            </div>
+            <div class="fluid-container pt-3">
+              <div class="row">
+                <div class="col-xl-12">
+                  <div class="img">
+                    <img src="../assets/gif/apexchart.gif" width="100%">
+                 </div>
+                </div>
+              </div>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#apexhtml" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-html" id="apexhtml">&lt;!-- Html code for display apex chart --&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;card-header&quot;&gt;
+        &lt;h4&gt;Basic Area Chart &lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;div id=&quot;basic-apex&quot;&gt;
+            &lt;apx-chart [chart]=&quot;basicAreaChart.chart&quot; [dataLabels]=&quot;basicAreaChart.dataLabels&quot;
+                [stroke]=&quot;basicAreaChart.stroke&quot; [series]=&quot;basicAreaChart.series&quot; [title]=&quot;basicAreaChart.title&quot;
+                [subtitle]=&quot;basicAreaChart.subtitle&quot; [labels]=&quot;basicAreaChart.labels&quot; [xaxis]=&quot;basicAreaChart.xaxis&quot;
+                [yaxis]=&quot;basicAreaChart.yaxis&quot; [legend]=&quot;basicAreaChart.legend&quot; [colors]=&quot;basicAreaChart.colors&quot;&gt;
+            &lt;/apx-chart&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+              </div>
+              <h5 class="pt-3 pb-2 inner-sub-title mt-0">To use apex chart data files
+              </h5>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#apexcode" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-html" id="apexcode">var primary = localStorage.getItem('primary_color') || '#7A70BA';
+var secondary = localStorage.getItem('secondary_color') || '#48A3D7';
+
+export let basicAreaChart: ChartOptions | any = {
+  chart: {
+    height: 350,
+    type: "area",
+    zoom: {
+      enabled: false,
+    },
+    toolbar: {
+      show: false,
+    },
+  },
+  dataLabels: {
+    enabled: false,
+  },
+  stroke: {
+    curve: "straight",
+  },
+  series: [
+    {
+      name: "STOCK ABC",
+      data: series.monthDataSeries1.prices,
+    },
+  ],
+  title: {
+    text: "Fundamental Analysis of Stocks",
+    align: "left",
+  },
+  subtitle: {
+    text: "Price Movements",
+    align: "left",
+  },
+  labels: series.monthDataSeries1.dates,
+  xaxis: {
+    type: "datetime",
+  },
+  yaxis: {
+    opposite: true,
+  },
+  legend: {
+    horizontalAlign: "left",
+  },
+  colors: [primary],
+};</code></pre>
+              </div>
+              <h5 class="pt-3 pb-2 inner-sub-title mt-0">you have use the apex charts type script file</h5>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#apexjs" title="Copy"><i
+                    class="fa fa-files-o"></i></button>
+                <pre><code class="language-js" id="apexjs">
+import { Component } from '@angular/core';
+import { basicAreaChart } from '../../../../shared/data/chart/charts/apex-chart';
+
+@Component({
+  selector: 'app-basic-area-chart',
+  templateUrl: './basic-area-chart.component.html',
+  styleUrls: ['./basic-area-chart.component.scss']
+})
+
+export class BasicAreaChartComponent {
+
+   public basicAreaChart = basicAreaChart;
+
+}
+
+</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="left-sidebar right-part">
+        <aside>
+          <ul class="list-unstyled nav-sidebar doc-nav">
+            <li class="nav-item">
+              <div class="title">On this page</div>
+              <ul class="dropdown-nav ps-0">
+                <li class="nav-item"><a class="nav-link" href="#section-1-1"><i class="fa fa-angle-right me-2"></i>
+                    Google</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#section-1-6"><i
+                      class="fa fa-angle-right me-2"></i>Chartjs
+                    charts</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-1-7"><i
+                      class="fa fa-angle-right me-2"></i>Chartist
+                    charts</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#section-1-9"><i class="fa fa-angle-right me-2"></i>Apex
+                    charts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row footer-theme partition-f">
+        <div class="col-12">
+          Copyright 2023 © Mofi theme by pixelstrap
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- latest jquery-->
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
+  <!-- Bootstrap js-->
+  <script src="../assets/js/bootstrap/popper.min.js"></script>
+  <script src="../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- feather icon js-->
+  <script src="../assets/js/icons/feather-icon/feather.min.js"></script>
+  <script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
+  <!-- popover js-->
+  <!-- code copy box js-->
+  <script src="../assets/js/prism/prism.min.js"></script>
+  <script src="../assets/js/clipboard/clipboard.min.js"></script>
+  <script src="../assets/js/custom-card/custom-card.js"></script>
+  <script src="../assets/js/tooltip-init.js"></script>
+  <script src="../assets/js/chart/google/google-chart-loader.js"></script>
+  <script src="../assets/js/chart/google/google-chart.js"></script>
+  <script src="../assets/js/chart/sparkline/sparkline.js"></script>
+  <script src="../assets/js/chart/sparkline/sparkline-script.js"></script>
+  <script src="../assets/js/chart/peity-chart/peity.jquery.js"></script>
+  <script src="../assets/js/chart/peity-chart/peity-custom.js"></script>
+  <script src="../assets/js/chart/morris-chart/raphael.js"></script>
+  <script src="../assets/js/chart/morris-chart/morris.js"></script>
+  <script src="../assets/js/chart/morris-chart/prettify.min.js"></script>
+  <script src="../assets/js/chart/morris-chart/morris-script.js"></script>
+  <script src="../assets/js/chart/chartjs/chart.min.js"></script>
+  <script src="../assets/js/chart/chartjs/chart.custom.js"></script>
+  <script src="../assets/js/chart/chartist/chartist.js"></script>
+  <script src="../assets/js/chart/chartist/chartist-plugin-tooltip.js"></script>
+  <script src="../assets/js/chart/chartist/chartist-custom.js"></script>
+  <script src="../assets/js/chart/knob/knob.min.js"></script>
+  <script src="../assets/js/chart/knob/knob-chart.js"></script>
+  <script src="../assets/js/chart/apex-chart/apex-chart.js"></script>
+  <script src="../assets/js/chart/apex-chart/stock-prices.js"></script>
+  <script src="../assets/js/chart/apex-chart/chart-custom.js"></script>
+  <script src="../assets/js/chart/echart/echarts.min.js"></script>
+  <script src="../assets/js/chart/echart/echarts-gl.min.js"></script>
+  <script src="../assets/js/chart/echart/ecStat.min.js"></script>
+  <script src="../assets/js/chart/echart/dataTool.min.js"></script>
+  <script src="../assets/js/chart/echart/custom.js"></script>
+  <script src="../assets/js/document/main.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
